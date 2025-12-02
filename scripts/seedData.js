@@ -9,7 +9,7 @@ dotenv.config();
 const seedData = async () => {
   try {
     // Connect to MongoDB
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://studymate:studymate123@cluster0.w3venfq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+    await mongoose.connect(process.env.MONGODB_URI || 'api key');
     console.log('Connected to MongoDB');
 
     // Clear existing data
